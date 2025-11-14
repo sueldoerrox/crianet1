@@ -29,3 +29,9 @@
 - [x] Verificar responsividade em mobile
 - [x] Testar formulário de contato
 - [x] Verificar performance e SEO
+
+## Melhorias Solicitadas
+
+- [x] Implementar tema dark com fundo preto (similar ao uixweb.com.br)
+- [x] Ajustar contraste de cores para o tema escuro
+- [x] Testar legibilidade em fundo preto
