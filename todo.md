@@ -35,3 +35,12 @@
 - [x] Implementar tema dark com fundo preto (similar ao uixweb.com.br)
 - [x] Ajustar contraste de cores para o tema escuro
 - [x] Testar legibilidade em fundo preto
+
+
+## Novas Melhorias
+
+- [x] Integrar logo CriaNet (arquivo enviado) no lugar do texto
+- [x] Criar fundo dinâmico com elementos visuais (similar ao uixweb.com.br)
+- [x] Adicionar animações de elementos em movimento
+- [x] Gerar e integrar fotos nos projetos do portfólio
+- [x] Testar animações e performance

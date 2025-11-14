@@ -1,8 +1,9 @@
 export { COOKIE_NAME, ONE_YEAR_MS } from "@shared/const";
 
-export const APP_TITLE = import.meta.env.VITE_APP_TITLE || "App";
+export const APP_TITLE = import.meta.env.VITE_APP_TITLE || "CriaNet";
+export const APP_NAME = "CriaNet";
 
-export const APP_LOGO = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Crect width='128' height='128' fill='%2314B2D2'/%3E%3Ctext x='50%25' y='50%25' font-size='28' font-weight='bold' fill='white' text-anchor='middle' dominant-baseline='middle' font-family='Arial, sans-serif'%3ECN%3C/text%3E%3C/svg%3E";
+export const APP_LOGO = "/logo-crianet.png";
 
 // Generate login URL at runtime so redirect URI reflects the current origin.
 export const getLoginUrl = () => {
