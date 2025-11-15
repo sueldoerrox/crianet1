@@ -45,7 +45,7 @@
 - [x] Gerar e integrar fotos nos projetos do portfólio
 - [x] Testar animações e performance
 - [x] Remover crédito "Feito com Manus" (removido plugin vitePluginManusRuntime)
-- [ ] Publicar site na plataforma Manus
+- [x] Publicar site na plataforma Manus
 
 
 ## Ajustes Finais Solicitados

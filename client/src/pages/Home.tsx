@@ -175,9 +175,9 @@ export default function Home() {
 
       {/* Navbar */}
       <nav className="sticky top-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
-        <div className="container flex items-center justify-between h-20">
+        <div className="container flex items-center justify-between h-24 md:h-28">
           <div className="flex items-center gap-3 animate-fade-in">
-            <img src={APP_LOGO} alt="CriaNet" className="w-16 h-16 md:w-20 md:h-20 object-contain" />
+            <img src={APP_LOGO} alt="CriaNet" className="w-20 h-20 md:w-28 md:h-28 object-contain" />
           </div>
 
           {/* Desktop Menu */}
@@ -190,12 +190,11 @@ export default function Home() {
           </div>
 
           <div className="hidden md:flex items-center gap-4">
-            <Button 
-              onClick={() => window.open('https://wa.me/5583999039822?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20desenvolvimento%20web', '_blank')}
-              className="bg-primary hover:bg-primary/90 animate-glow cursor-pointer"
-            >
-              Falar com Especialista
-            </Button>
+            <a href="https://wa.me/5583999039822" className="inline-block">
+              <Button className="bg-primary hover:bg-primary/90 animate-glow cursor-pointer">
+                Falar com Especialista
+              </Button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -216,12 +215,11 @@ export default function Home() {
               <a href="#depoimentos" className="text-sm hover:text-primary transition">Depoimentos</a>
               <a href="#faq" className="text-sm hover:text-primary transition">FAQ</a>
               <a href="#contato" className="text-sm hover:text-primary transition">Contato</a>
-              <Button 
-                onClick={() => window.open('https://wa.me/5583999039822?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20desenvolvimento%20web', '_blank')}
-                className="bg-primary hover:bg-primary/90 w-full cursor-pointer"
-              >
-                Falar com Especialista
-              </Button>
+              <a href="https://wa.me/5583999039822" className="w-full inline-block">
+                <Button className="bg-primary hover:bg-primary/90 w-full cursor-pointer">
+                  Falar com Especialista
+                </Button>
+              </a>
             </div>
           </div>
         )}
@@ -259,12 +257,16 @@ export default function Home() {
               Sites profissionais, sistemas web, automações inteligentes e soluções digitais que impulsionam seu negócio.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 animate-bounce-custom">
-                Falar com Especialista <ChevronRight className="ml-2" size={20} />
-              </Button>
-              <Button size="lg" variant="outline">
-                Ver Portfólio
-              </Button>
+              <a href="https://wa.me/5583999039822" className="inline-block">
+                <Button size="lg" className="bg-primary hover:bg-primary/90 animate-bounce-custom">
+                  Falar com Especialista <ChevronRight className="ml-2" size={20} />
+                </Button>
+              </a>
+              <a href="#portfolio" className="inline-block">
+                <Button size="lg" variant="outline">
+                  Ver Portfólio
+                </Button>
+              </a>
             </div>
 
             {/* Stats */}
