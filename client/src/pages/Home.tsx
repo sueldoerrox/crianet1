@@ -175,9 +175,9 @@ export default function Home() {
 
       {/* Navbar */}
       <nav className="sticky top-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
-        <div className="container flex items-center justify-between h-24 md:h-28">
+        <div className="container flex items-center justify-between h-40 md:h-56">
           <div className="flex items-center gap-3 animate-fade-in">
-            <img src={APP_LOGO} alt="CriaNet" className="w-20 h-20 md:w-28 md:h-28 object-contain" />
+            <img src={APP_LOGO} alt="CriaNet" className="w-36 h-36 md:w-52 md:h-52 object-contain" />
           </div>
 
           {/* Desktop Menu */}
