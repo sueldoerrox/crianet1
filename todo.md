@@ -79,3 +79,10 @@
 - [x] Testar envio de emails
 - [x] Verificar e remover qualquer referência ao Manus
 - [x] Site 100% pronto para publicação
+
+
+## Publicação e Deployment
+
+- [x] Fazer push do código para GitHub (https://github.com/sueldoerrox/crianet1)
+- [ ] Deploy na Vercel ou outro serviço
+- [ ] Configurar domínio customizado (crianett.online)
