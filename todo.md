@@ -53,4 +53,4 @@
 - [x] Aumentar logo do site (navbar)
 - [x] Configurar botão "Falar com Especialista" para abrir WhatsApp (83 9 9903-9822)
 - [x] Gerar fotos realistas em português para os projetos
-- [ ] Testar site completo e fazer publicação final
+- [x] Testar site completo e fazer publicação final

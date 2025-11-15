@@ -190,11 +190,12 @@ export default function Home() {
           </div>
 
           <div className="hidden md:flex items-center gap-4">
-            <a href="https://wa.me/5583999039822?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20desenvolvimento%20web" target="_blank" rel="noopener noreferrer">
-              <Button className="bg-primary hover:bg-primary/90 animate-glow">
-                Falar com Especialista
-              </Button>
-            </a>
+            <Button 
+              onClick={() => window.open('https://wa.me/5583999039822?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20desenvolvimento%20web', '_blank')}
+              className="bg-primary hover:bg-primary/90 animate-glow cursor-pointer"
+            >
+              Falar com Especialista
+            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -215,11 +216,12 @@ export default function Home() {
               <a href="#depoimentos" className="text-sm hover:text-primary transition">Depoimentos</a>
               <a href="#faq" className="text-sm hover:text-primary transition">FAQ</a>
               <a href="#contato" className="text-sm hover:text-primary transition">Contato</a>
-              <a href="https://wa.me/5583999039822?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20desenvolvimento%20web" target="_blank" rel="noopener noreferrer" className="w-full">
-                <Button className="bg-primary hover:bg-primary/90 w-full">
-                  Falar com Especialista
-                </Button>
-              </a>
+              <Button 
+                onClick={() => window.open('https://wa.me/5583999039822?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20desenvolvimento%20web', '_blank')}
+                className="bg-primary hover:bg-primary/90 w-full cursor-pointer"
+              >
+                Falar com Especialista
+              </Button>
             </div>
           </div>
         )}
