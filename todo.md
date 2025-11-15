@@ -77,3 +77,5 @@
 - [x] Configurar variáveis de ambiente (Template ID, Service ID, Public Key)
 - [x] Integrar EmailJS no formulário de contato
 - [x] Testar envio de emails
+- [x] Verificar e remover qualquer referência ao Manus
+- [x] Site 100% pronto para publicação
