@@ -54,3 +54,9 @@
 - [x] Configurar botão "Falar com Especialista" para abrir WhatsApp (83 9 9903-9822)
 - [x] Gerar fotos realistas em português para os projetos
 - [x] Testar site completo e fazer publicação final
+
+
+## Atualizações Recentes
+
+- [x] Gerar novas imagens dos projetos mais realistas e atualizadas
+- [x] Testar e validar as novas imagens no site
