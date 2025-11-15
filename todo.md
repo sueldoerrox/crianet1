@@ -63,3 +63,9 @@
 
 - [x] Adicionar botão do Instagram no site (link: https://www.instagram.com/cria_net?igsh=N3VlOXhnZWZwejh5)
 - [x] Adicionar botão do WhatsApp no footer (número: 83 9 9903-9822)
+
+
+## Últimos Ajustes
+
+- [x] Adicionar espaço entre botões do Instagram e WhatsApp
+- [x] Gerar novas fotos atualizadas para os projetos
