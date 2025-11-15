@@ -175,9 +175,9 @@ export default function Home() {
 
       {/* Navbar */}
       <nav className="sticky top-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
-        <div className="container flex items-center justify-between h-16">
+        <div className="container flex items-center justify-between h-20">
           <div className="flex items-center gap-3 animate-fade-in">
-            <img src={APP_LOGO} alt="CriaNet" className="w-10 h-10 object-contain" />
+            <img src={APP_LOGO} alt="CriaNet" className="w-16 h-16 md:w-20 md:h-20 object-contain" />
           </div>
 
           {/* Desktop Menu */}
@@ -190,9 +190,11 @@ export default function Home() {
           </div>
 
           <div className="hidden md:flex items-center gap-4">
-            <Button className="bg-primary hover:bg-primary/90 animate-glow">
-              Falar com Especialista
-            </Button>
+            <a href="https://wa.me/5583999039822?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20desenvolvimento%20web" target="_blank" rel="noopener noreferrer">
+              <Button className="bg-primary hover:bg-primary/90 animate-glow">
+                Falar com Especialista
+              </Button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -213,9 +215,11 @@ export default function Home() {
               <a href="#depoimentos" className="text-sm hover:text-primary transition">Depoimentos</a>
               <a href="#faq" className="text-sm hover:text-primary transition">FAQ</a>
               <a href="#contato" className="text-sm hover:text-primary transition">Contato</a>
-              <Button className="bg-primary hover:bg-primary/90 w-full">
-                Falar com Especialista
-              </Button>
+              <a href="https://wa.me/5583999039822?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20desenvolvimento%20web" target="_blank" rel="noopener noreferrer" className="w-full">
+                <Button className="bg-primary hover:bg-primary/90 w-full">
+                  Falar com Especialista
+                </Button>
+              </a>
             </div>
           </div>
         )}
