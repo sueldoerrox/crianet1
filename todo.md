@@ -60,3 +60,5 @@
 
 - [x] Gerar novas imagens dos projetos mais realistas e atualizadas
 - [x] Testar e validar as novas imagens no site
+
+- [x] Adicionar botão do Instagram no site (link: https://www.instagram.com/cria_net?igsh=N3VlOXhnZWZwejh5)
