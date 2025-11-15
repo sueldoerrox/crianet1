@@ -62,3 +62,4 @@
 - [x] Testar e validar as novas imagens no site
 
 - [x] Adicionar botão do Instagram no site (link: https://www.instagram.com/cria_net?igsh=N3VlOXhnZWZwejh5)
+- [x] Adicionar botão do WhatsApp no footer (número: 83 9 9903-9822)
