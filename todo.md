@@ -69,3 +69,11 @@
 
 - [x] Adicionar espaço entre botões do Instagram e WhatsApp
 - [x] Gerar novas fotos atualizadas para os projetos
+
+
+## Integração EmailJS
+
+- [x] Instalar pacote emailjs-com
+- [x] Configurar variáveis de ambiente (Template ID, Service ID, Public Key)
+- [x] Integrar EmailJS no formulário de contato
+- [x] Testar envio de emails

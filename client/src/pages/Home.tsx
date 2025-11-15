@@ -5,6 +5,8 @@ import { Textarea } from "@/components/ui/textarea";
 import { ChevronDown, Menu, X, Code2, Globe, ShoppingCart, Zap, ExternalLink, Star, ChevronRight } from "lucide-react";
 import { APP_LOGO, APP_TITLE } from "@/const";
 import { useState, useEffect } from "react";
+import emailjs from "emailjs-com";
+import { toast } from "sonner";
 
 const services = [
   {
@@ -163,10 +165,33 @@ export default function Home() {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Form submitted:", formData);
-    setFormData({ name: "", email: "", phone: "", company: "" });
+    
+    try {
+      // Initialize EmailJS
+      emailjs.init("oXKR4oH5qIqG4z8Zk");
+
+      const templateParams = {
+        to_email: "crianetsuporte@gmail.com",
+        from_name: formData.name,
+        from_email: formData.email,
+        phone: formData.phone || "Não informado",
+        company: formData.company || "Não informado",
+      };
+
+      await emailjs.send(
+        "service_nbsbesq",
+        "template_jh7klgs",
+        templateParams
+      );
+
+      toast.success("Mensagem enviada com sucesso! Entraremos em contato em breve.");
+      setFormData({ name: "", email: "", phone: "", company: "" });
+    } catch (error: any) {
+      console.error("Erro ao enviar email:", error);
+      toast.error("Erro ao enviar mensagem. Tente novamente.");
+    }
   };
 
   return (
@@ -560,6 +585,14 @@ export default function Home() {
                         onChange={handleInputChange}
                       />
                     </div>
+                  </div>
+                  <div>
+                    <label className="text-sm font-medium mb-2 block">Mensagem (opcional)</label>
+                    <Textarea
+                      placeholder="Conte-nos mais sobre seu projeto..."
+                      name="message"
+                      className="min-h-32"
+                    />
                   </div>
                   <Button type="submit" size="lg" className="w-full bg-primary hover:bg-primary/90 animate-glow">
                     Enviar Proposta
